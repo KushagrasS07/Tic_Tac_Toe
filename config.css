@@ -1,0 +1,71 @@
+#config-overlay{
+    text-align: center;
+}
+#config-overlay h2{
+    margin:0.5rem;
+}
+.form-control{
+    margin:0.5rem;
+}
+
+.form-control input{
+    font:inherit;
+    border:1px solid rgb(204,204,204);
+    width:15rem;
+    padding:0.35rem;
+}
+.error input{
+    border-color:rgb(136,2,2);
+    color:rgb(136,2,2);
+    background-color:rgb(253, 219, 219);
+}
+.error label{
+    color:rgb(195,15,15);
+}
+
+
+#game-configuration{
+    width:90%;
+    max-width:40rem;
+    margin:3rem auto;
+    text-align:center;
+}
+
+#game-configuration ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+    display:flex;
+}
+
+#game-configuration li{
+    margin:1rem;
+    padding:0.25rem;
+    width:50%;
+    background-color:rgb(239, 166, 224);
+    border-radius:4px;
+    border:1px solid rgb(239, 166, 224);
+}
+
+#game-configuration li h2{
+    color:rgb(184, 0, 135);
+}
+
+.player-symbol{
+    font-size: 2rem;
+    font-weight:bolder;
+}
+
+#start-game{
+    margin-top:2rem;
+    color:white;
+    border: 1px solid rgba(60, 38, 60, 0.642);
+    border-radius:4px;
+    padding:0.5rem 0.25rem; 
+    background:linear-gradient(90deg,rgb(101, 50, 101),rgb(222, 0, 155));
+}
+
+#start-game:hover{
+    background:linear-gradient(90deg,rgba(101, 50, 101, 0.9),rgb(222, 0, 155,0.9));
+    cursor:pointer;
+}
